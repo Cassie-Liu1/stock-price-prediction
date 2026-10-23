@@ -1,0 +1,18 @@
+{
+  "mode": "residual",
+  "seed": 7,
+  "window": 60,
+  "epochs": 30,
+  "best_epoch": 9,
+  "best_validation_mse_scaled": 0.00022813248344593577,
+  "validation_baseline_mse_scaled": 0.00022903016360942274,
+  "train_targets": 3540,
+  "validation_targets": 252,
+  "test_targets": 154,
+  "train_end_date": "2018-12-04",
+  "validation_end_date": "2019-12-05",
+  "test_start_date": "2019-12-06",
+  "test_end_date": "2020-07-17",
+  "torch_version": "2.14.1",
+  "device": "cpu"
+}

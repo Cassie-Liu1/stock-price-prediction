@@ -1,0 +1,11 @@
+.DS_Store
+.venv/
+.venv-lstm/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+outputs/
+source/
+*.keras
+*.h5
+data/*.csv

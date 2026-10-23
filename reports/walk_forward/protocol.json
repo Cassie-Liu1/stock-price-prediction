@@ -1,0 +1,39 @@
+{
+  "input": "data/GOOG.csv",
+  "output_dir": "reports/walk_forward",
+  "initial_train": 2400,
+  "validation_size": 252,
+  "test_size": 400,
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "epochs": 30,
+  "window": 60,
+  "folds": [
+    [
+      2400,
+      2652,
+      3052
+    ],
+    [
+      2800,
+      3052,
+      3452
+    ],
+    [
+      3200,
+      3452,
+      3852
+    ],
+    [
+      3600,
+      3852,
+      4006
+    ]
+  ],
+  "protocol": "expanding train; fixed validation; disjoint rolling one-step tests",
+  "settings_changed_during_evaluation": false,
+  "architecture_informed_by_prior_holdout": true
+}
